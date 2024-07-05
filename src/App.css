@@ -36,3 +36,207 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container h2 {
+  background-color: #0f3072;
+  color: white;
+  padding: 20px;
+}
+
+.proposals {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.proposal-card {
+  border: 1px solid #ccc;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.proposal-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+}
+
+.owner-section {
+  margin: 20px 0;
+}
+
+.owner-section div {
+  margin: 10px 0;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #0f3072;
+  color: white;
+  padding: 5px 10px;
+  font-size: medium;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between groups as needed */
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.input-group {
+  display: flex;
+  gap: 10px; /* Adjust the gap between input field and button as needed */
+  align-items: center; /* Align items vertically */
+}
+
+.button-container .button-group button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.button-container .button-group button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-container .button-group button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button-container .input-group input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.button-container .input-group button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.proposal-card button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.proposal-card button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.proposal-card button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.button-container .button-group button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.button-container .button-group button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-container .button-group button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button-container .input-group input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.button-container .input-group button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.proposal-card button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.proposal-card button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.proposal-card button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+.proposal-card.winner {
+  border: 2px solid green;
+  background-color: lightgreen;
+}
